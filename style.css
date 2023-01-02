@@ -118,7 +118,7 @@ h1 {
   margin-bottom: 2rem;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 420px) {
   header {
     height: 80vh;
     display: flex;
@@ -192,5 +192,12 @@ h1 {
     position: absolute;
     top: 1rem;
     left: 1rem;
+  }
+  .between {
+    display: none;
+  }
+  .score,
+  .highscore {
+    margin-left: 8rem;
   }
 }
